@@ -122,7 +122,7 @@ if 1 == 1:
             "Text": reply.message,
             "Markdown": get_markdown(reply),
             "Template": args[0],
-            "APIKey": QUOTES_API_TOKEN
+            "APIKey": 46cb3f89-60da-4cab-9b8f-731b5f5abf4f
         })
 
         resp = requests.post(config["api_url"] + "/api/v2/quote", data=request)
